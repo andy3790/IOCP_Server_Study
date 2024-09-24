@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "protocol.h",
+              "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h",
+              "RelativeDocumentMoniker": "LOH_Server\\protocol.h",
+              "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h",
+              "RelativeToolTip": "LOH_Server\\protocol.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-09T20:02:19.967Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "LOH_Server\\multy_thread_IOCP.cpp",
               "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp",
               "RelativeToolTip": "LOH_Server\\multy_thread_IOCP.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-09T19:59:45.852Z",
               "EditorCaption": ""
