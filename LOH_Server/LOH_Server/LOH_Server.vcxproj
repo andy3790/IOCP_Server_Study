@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="multy_thread_IOCP.cpp" />
+    <ClCompile Include="multy_thread_IOCP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="single_block.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="protocol.h" />
