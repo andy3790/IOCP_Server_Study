@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="single_block.cpp">
+    <ClCompile Include="01_single_block.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02_single_overlapped.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
