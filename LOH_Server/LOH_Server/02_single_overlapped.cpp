@@ -2,6 +2,7 @@
 #include <WS2tcpip.h>
 #pragma comment(lib, "WS2_32.LIB")
 
+
 using namespace std;
 constexpr short  PORT_NUM = 4000;
 constexpr int BUF_SIZE = 256;
@@ -55,6 +56,16 @@ int main()
 	int addr_size = sizeof(cl_addr);
 
 	client = WSAAccept(server, reinterpret_cast<sockaddr*>(&cl_addr), &addr_size, NULL, NULL);
+
+	if (client == INVALID_SOCKET) {
+		cout << "WSAAccept failed with error: " << WSAGetLastError() << endl;
+	}
+	else { // 접속 성공시 클라이언트 정보 출력
+		char clientIP[INET_ADDRSTRLEN];
+		InetNtopA(AF_INET, &cl_addr.sin_addr, clientIP, sizeof(clientIP));
+
+		cout << "Client connected: " << clientIP << ":" << ntohs(cl_addr.sin_port) << endl;
+	}
 
 	do_recv();
 	while (true) SleepEx(100, true);
