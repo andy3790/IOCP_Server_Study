@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\04_single_overlapped_chatting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\04_single_overlapped_chatting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\03_single_overlapped_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\03_single_overlapped_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\02_single_overlapped.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\01_single_block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\01_single_block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\01_single_block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\01_single_block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,32 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "04_single_overlapped_chatting.cpp",
+              "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\04_single_overlapped_chatting.cpp",
+              "RelativeDocumentMoniker": "LOH_Server\\04_single_overlapped_chatting.cpp",
+              "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\04_single_overlapped_chatting.cpp",
+              "RelativeToolTip": "LOH_Server\\04_single_overlapped_chatting.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T11:00:01.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "03_single_overlapped_2.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\03_single_overlapped_2.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\03_single_overlapped_2.cpp",
               "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\03_single_overlapped_2.cpp",
               "RelativeToolTip": "LOH_Server\\03_single_overlapped_2.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-27T21:56:52.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "02_single_overlapped.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\02_single_overlapped.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\02_single_overlapped.cpp",
               "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\02_single_overlapped.cpp",
               "RelativeToolTip": "LOH_Server\\02_single_overlapped.cpp",
-              "ViewState": "AgIAACkAAAAAAAAAAAAYwEkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-27T20:35:58.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "01_single_block.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\01_single_block.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\01_single_block.cpp",
@@ -68,12 +85,11 @@
               "RelativeToolTip": "LOH_Server\\01_single_block.cpp",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T00:57:07.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T00:57:07.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "protocol.h",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h",
               "RelativeDocumentMoniker": "LOH_Server\\protocol.h",
@@ -91,7 +107,7 @@
               "RelativeDocumentMoniker": "LOH_Server\\multy_thread_IOCP.cpp",
               "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp",
               "RelativeToolTip": "LOH_Server\\multy_thread_IOCP.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-09T19:59:45.852Z",
               "EditorCaption": ""
