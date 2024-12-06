@@ -3,8 +3,23 @@
   "WorkspaceRootPath": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\05_single_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\05_single_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjpar\\Desktop\\\uC800\uC7A5\uACF5\uAC04\\\uB300\uD559\uAD50\\\uAC8C\uC784\uACF5\uD559\uACFC\\\uD55C\uAD6D\uACF5\uB300 5\uD559\uB144 \uD30C\uC77C\\\uD55C\uAD6D\uACF5\uD559\uB300\uD559\uAD50 5\uD559\uB144 1\uD559\uAE30\\\uAC8C\uC784\uC11C\uBC84\uD504\uB85C\uADF8\uB798\uBC0D\\5\uC7A5\\iocp_server_4_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\04_single_overlapped_chatting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\04_single_overlapped_chatting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\03_single_overlapped_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,16 +30,8 @@
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\02_single_overlapped.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\multy_thread_IOCP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\01_single_block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\01_single_block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1CB8E90-8FE6-4D0D-8C47-A5B84D2A6C28}|LOH_Server\\LOH_Server.vcxproj|solutionrelative:LOH_Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +46,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "05_single_IOCP.cpp",
+              "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\05_single_IOCP.cpp",
+              "RelativeDocumentMoniker": "LOH_Server\\05_single_IOCP.cpp",
+              "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\05_single_IOCP.cpp",
+              "RelativeToolTip": "LOH_Server\\05_single_IOCP.cpp",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAnwKsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-29T07:06:29.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "04_single_overlapped_chatting.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\04_single_overlapped_chatting.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\04_single_overlapped_chatting.cpp",
               "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\04_single_overlapped_chatting.cpp",
               "RelativeToolTip": "LOH_Server\\04_single_overlapped_chatting.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwIYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-28T11:00:01.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T11:00:01.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "03_single_overlapped_2.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\03_single_overlapped_2.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\03_single_overlapped_2.cpp",
@@ -59,12 +78,11 @@
               "RelativeToolTip": "LOH_Server\\03_single_overlapped_2.cpp",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-27T21:56:52.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T21:56:52.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "02_single_overlapped.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\02_single_overlapped.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\02_single_overlapped.cpp",
@@ -72,12 +90,11 @@
               "RelativeToolTip": "LOH_Server\\02_single_overlapped.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-27T20:35:58.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T20:35:58.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "01_single_block.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\01_single_block.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\01_single_block.cpp",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "protocol.h",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\protocol.h",
               "RelativeDocumentMoniker": "LOH_Server\\protocol.h",
@@ -101,15 +118,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "multy_thread_IOCP.cpp",
               "DocumentMoniker": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp",
               "RelativeDocumentMoniker": "LOH_Server\\multy_thread_IOCP.cpp",
               "ToolTip": "C:\\GitProject\\Proj_LogHorizon\\LOH_Server\\LOH_Server\\multy_thread_IOCP.cpp",
               "RelativeToolTip": "LOH_Server\\multy_thread_IOCP.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-09T19:59:45.852Z",
+              "WhenOpened": "2024-09-09T19:59:45.852Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "fa0e689c-1a54-458c-b9bd-9cfb711fe3e9",
+        "Display": 1,
+        "X": 126,
+        "Y": 137,
+        "Width": 1669,
+        "Height": 784,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "iocp_server_4_02.cpp",
+              "DocumentMoniker": "C:\\Users\\kjpar\\Desktop\\\uC800\uC7A5\uACF5\uAC04\\\uB300\uD559\uAD50\\\uAC8C\uC784\uACF5\uD559\uACFC\\\uD55C\uAD6D\uACF5\uB300 5\uD559\uB144 \uD30C\uC77C\\\uD55C\uAD6D\uACF5\uD559\uB300\uD559\uAD50 5\uD559\uB144 1\uD559\uAE30\\\uAC8C\uC784\uC11C\uBC84\uD504\uB85C\uADF8\uB798\uBC0D\\5\uC7A5\\iocp_server_4_02.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\kjpar\\Desktop\\\uC800\uC7A5\uACF5\uAC04\\\uB300\uD559\uAD50\\\uAC8C\uC784\uACF5\uD559\uACFC\\\uD55C\uAD6D\uACF5\uB300 5\uD559\uB144 \uD30C\uC77C\\\uD55C\uAD6D\uACF5\uD559\uB300\uD559\uAD50 5\uD559\uB144 1\uD559\uAE30\\\uAC8C\uC784\uC11C\uBC84\uD504\uB85C\uADF8\uB798\uBC0D\\5\uC7A5\\iocp_server_4_02.cpp",
+              "ToolTip": "C:\\Users\\kjpar\\Desktop\\\uC800\uC7A5\uACF5\uAC04\\\uB300\uD559\uAD50\\\uAC8C\uC784\uACF5\uD559\uACFC\\\uD55C\uAD6D\uACF5\uB300 5\uD559\uB144 \uD30C\uC77C\\\uD55C\uAD6D\uACF5\uD559\uB300\uD559\uAD50 5\uD559\uB144 1\uD559\uAE30\\\uAC8C\uC784\uC11C\uBC84\uD504\uB85C\uADF8\uB798\uBC0D\\5\uC7A5\\iocp_server_4_02.cpp",
+              "RelativeToolTip": "..\\..\\..\\Users\\kjpar\\Desktop\\\uC800\uC7A5\uACF5\uAC04\\\uB300\uD559\uAD50\\\uAC8C\uC784\uACF5\uD559\uACFC\\\uD55C\uAD6D\uACF5\uB300 5\uD559\uB144 \uD30C\uC77C\\\uD55C\uAD6D\uACF5\uD559\uB300\uD559\uAD50 5\uD559\uB144 1\uD559\uAE30\\\uAC8C\uC784\uC11C\uBC84\uD504\uB85C\uADF8\uB798\uBC0D\\5\uC7A5\\iocp_server_4_02.cpp",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-29T10:01:13.432Z",
               "EditorCaption": ""
             }
           ]
