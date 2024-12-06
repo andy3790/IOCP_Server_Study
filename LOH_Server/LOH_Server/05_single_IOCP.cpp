@@ -17,7 +17,7 @@ enum COMP_TYPE { OP_ACCEPT, OP_RECV, OP_SEND }; // OVERLAPPED 구조체가 행할 작업
 
 class EXP_OVER {
 public:
-	WSAOVERLAPPED _wsa_over;
+	WSAOVERLAPPED _over;
 	WSABUF _wsa_buf[1];
 	char _send_buf[BUF_SIZE];
 	COMP_TYPE _comp_type; // 이 OVERLAPPED 구조체가 행할 작업
@@ -25,15 +25,17 @@ public:
 
 public:
 	EXP_OVER() {
-		ZeroMemory(&_wsa_over, sizeof(_wsa_over));
+		ZeroMemory(&_over, sizeof(_over));
 		_wsa_buf[0].buf = _send_buf;
 		_wsa_buf[0].len = BUF_SIZE;
+		_comp_type = OP_RECV;
 	}
 
 	EXP_OVER(size_t s_id, char num_bytes, char* mess) {
-		ZeroMemory(&_wsa_over, sizeof(_wsa_over));
+		ZeroMemory(&_over, sizeof(_over));
 		_wsa_buf[0].buf = _send_buf;
 		_wsa_buf[0].len = num_bytes + 2; // 헤더 2바이트를 고려하여 총 바이트 수에 2를 더함
+		_comp_type = OP_SEND;
 
 		memcpy(_send_buf + 2, mess, num_bytes);
 
@@ -56,13 +58,14 @@ public:
 	int _id;
 	SOCKET _socket;
 
+	int _prev_remain;
 public:
 	SESSION() { // 초기화 없이 생성될 수 없는 구조체
 		cout << "Unexpected Constructor Call Error!\n";
 		exit(-1);
 	}
 	SESSION(int id, SOCKET s) : _id(id), _socket(s) {
-
+		_prev_remain = 0;
 	}
 	~SESSION() {
 		closesocket(_socket);
@@ -71,13 +74,15 @@ public:
 public:
 	void do_recv() {
 		DWORD recv_flag = 0;
-		ZeroMemory(&_recv_over._wsa_over, sizeof(_recv_over._wsa_over));
-		WSARecv(_socket, _recv_over._wsa_buf, 1, nullptr, &recv_flag, &_recv_over._wsa_over, nullptr);
+		ZeroMemory(&_recv_over._over, sizeof(_recv_over._over));
+		_recv_over._wsa_buf[0].len = BUF_SIZE - _prev_remain;
+		_recv_over._wsa_buf[0].buf = _recv_over._send_buf + _prev_remain;
+		WSARecv(_socket, _recv_over._wsa_buf, 1, nullptr, &recv_flag, &_recv_over._over, nullptr);
 	}
 
 	void do_send(int sender_id, int num_bytes, char* mess) {
 		EXP_OVER* ex_over = new EXP_OVER(sender_id, num_bytes, mess);
-		WSASend(_socket, ex_over->_wsa_buf, 1, nullptr, 0, &ex_over->_wsa_over, nullptr);
+		WSASend(_socket, ex_over->_wsa_buf, 1, nullptr, 0, &ex_over->_over, nullptr);
 	}
 };
 
@@ -128,7 +133,7 @@ int main()
 	EXP_OVER a_over;
 	a_over._comp_type = OP_ACCEPT;
 	a_over._client_socket = c_socket;
-	AcceptEx(s_socket, c_socket, a_over._send_buf, 0, addr_size + 16, addr_size + 16, 0, &a_over._wsa_over);
+	AcceptEx(s_socket, c_socket, a_over._send_buf, 0, addr_size + 16, addr_size + 16, 0, &a_over._over);
 
 	while(true) {
 		DWORD num_bytes;
@@ -147,7 +152,6 @@ int main()
 			}
 			else {
 				cout << "GQCS Error on client[" << key << "]\n";
-				closesocket(clients[key]._socket);
 				clients.erase(key);
 				// 오류를 일으킨 클라이언트의 연결을 끊어버리자.
 				if (ex_over->_comp_type == OP_SEND) delete ex_over;
@@ -165,14 +169,33 @@ int main()
 			id++;
 
 			nc_socket = WSASocket(AF_INET, SOCK_STREAM, 0, NULL, 0, WSA_FLAG_OVERLAPPED);
-			ZeroMemory(&ex_over->_wsa_over, sizeof(ex_over->_wsa_over));
+			ZeroMemory(&ex_over->_over, sizeof(ex_over->_over));
 			ex_over->_client_socket = nc_socket;
-			AcceptEx(s_socket, nc_socket, ex_over->_send_buf, 0, addr_size + 16, addr_size + 16, 0, &ex_over->_wsa_over);
+			AcceptEx(s_socket, nc_socket, ex_over->_send_buf, 0, addr_size + 16, addr_size + 16, 0, &ex_over->_over);
 			break;
 		}
-		case OP_RECV:
+		case OP_RECV: {
+			int remain_data = num_bytes + clients[key]._prev_remain;
+			char* p = ex_over->_send_buf;
+			while (remain_data > 0) {
+				int packet_size = num_bytes;
+				if (packet_size <= remain_data) {
+					cout << "Client [" << key << "] Sent[" << num_bytes << " bytes] : " << ex_over->_send_buf << endl;
+					for (auto& cl : clients)
+						cl.second.do_send(key, num_bytes, ex_over->_send_buf);
+					p = p + packet_size;
+					remain_data = remain_data - packet_size;
+				}
+				else break;
+			}
+			clients[key]._prev_remain = remain_data;
+			if (remain_data > 0)
+				memcpy(ex_over->_send_buf, p, remain_data);
+			clients[key].do_recv();
 			break;
+		}
 		case OP_SEND:
+			delete ex_over;
 			break;
 		}
 	}
