@@ -1,3 +1,3 @@
-# Proj_LogHorizon
+# IOCP_Server_Study
 
-이 프로젝트는 일본의 소설을 원작으로 하는 TRPG룰 LogHorizon TRPG 를 멀티 플레이 형식의 게임으로 옮기는 것을 목적으로 한다.
+이 프로젝트는 IOCP 를 이용한 게임 서버 제작에 대한 개인적인 공부 내용이다.
